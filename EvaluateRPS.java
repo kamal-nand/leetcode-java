@@ -32,8 +32,8 @@ public class EvaluateRPS {
             for(int i = 0; i < n; i++) {
                 str[i] = sc.next();
             }
-            int res = evalRPN(str);
-            System.out.println(res);
+            int ans = evalRPN(str);
+            System.out.println(ans);
         }
     }
 }
