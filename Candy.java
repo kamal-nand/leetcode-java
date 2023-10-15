@@ -30,8 +30,8 @@ public class Candy {
         for (int i = 0; i < n; i++) {
             ratings[i] = sc.nextInt();
         }
-        int res = candy(ratings);
-        System.out.println(res);
+        int ans = candy(ratings);
+        System.out.println(ans);
     }
 
 }
